@@ -1,34 +1,17 @@
-# Configuration files
+# Configuration files exemple
+For the configuration of your bot, you can store in a single folder.
 
-## Tree
 ```
 my-bot/
 ├─ config/
 │  ├─ bot.json
 │  ├─ db.json
 │  ├─ index.js
+│  index.js
 ```
 
-## bot.json
-```js
-{
-    "token": "" // The token of your bot
-}
-```
-
-## db.json
-```js
-{
-    "host": "", // IP or HOST of the mysql server
-    "port": 3306,
-    "user": "", // Username
-    "password": "", // Password
-    "database": "" // The name of the database
-}
-```
-
-## index.js
-```js
+``` js
+// config/index.js
 module.exports = {
     bot: require("./bot.json"),
     db: require("./db.json"),
@@ -36,4 +19,18 @@ module.exports = {
     ownerId: "",
     ownersId: []
 };
+
+// config/bot.json
+{
+    "token": "" // The token of your bot
+}
+
+// config/db.json
+{
+    "host": "", // IP or HOST of the mysql server
+    "port": 3306,
+    "user": "", // Username
+    "password": "", // Password
+    "database": "" // The name of the database
+}
 ```
