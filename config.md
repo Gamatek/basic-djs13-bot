@@ -17,8 +17,8 @@ module.exports = {
     bot: require("./bot.json"),
     db: require("./db.json"),
     inviteSupport: "", // The invitation link of your Discord server
-    ownerId: "",
-    ownersId: []
+    ownerId: "", // The bot's owner
+    ownersId: [] // Users admin, they will have access to the admin features
 };
 
 // config/bot.json
