@@ -1,5 +1,5 @@
 # Database
-Package required: `quick.db@9`
+Package required: `npm i quick.db@9`
 
 Currently, I use [quick.db v9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
 
