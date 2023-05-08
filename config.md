@@ -29,7 +29,7 @@ module.exports = {
 // config/db.json
 {
     "host": "", // IP or HOST of the mysql server
-    "port": 3306,
+    "port": 3306, // Default is 3306 of mysql server
     "user": "", // Username
     "password": "", // Password
     "database": "" // The name of the database
