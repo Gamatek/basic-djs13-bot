@@ -2,7 +2,7 @@
 A simple tuto for a great bot!
 
 1. [Adding a configuration files](https://github.com/Gamatek/basic-djs13-bot/blob/main/config.md)
-2. [DataBase]([db.](https://github.com/Gamatek/basic-djs13-bot/blob/main/db.md))
+2. [DataBase](https://github.com/Gamatek/basic-djs13-bot/blob/main/db.md)
 
 
 ## Database
