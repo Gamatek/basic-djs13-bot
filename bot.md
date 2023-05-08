@@ -10,9 +10,9 @@ With the arrival of DiscordJS v13, we must now give the *intents* of our bot. Th
 const { Client, Intents } = require("discord.js")
 
 const client = new Client({
-intents: [
-Intents.FLAGS.GUILDS
-]
+    intents: [
+        Intents.FLAGS.GUILDS
+    ]
 })
 
 client.on("ready", () => {
