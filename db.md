@@ -12,7 +12,7 @@ let db = {};
 });
 ```
 
-##MySQL Server Connection
+## MySQL Server Connection
 ```js
 const { QuickDB, MySQLDriver } = require("quick.db"); // Add mysql2 package for MySqlDriver: npm i mysql2
 
