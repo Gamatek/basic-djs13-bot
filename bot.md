@@ -16,7 +16,7 @@ Intents.FLAGS.GUILDS
 })
 
 client.on("ready", () => {
-console.log(`Logged in as ${client.user.ta}`)
+    console.log(`Logged in as ${client.user.ta}`)
 })
 
 client.login("TOKEN_BOT")
