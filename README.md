@@ -13,7 +13,7 @@ my-bot/
 ```
 
 ### bot.json
-```json
+```js
 {
     "token": "" // The token of your bot
 }
