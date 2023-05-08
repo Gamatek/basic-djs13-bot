@@ -1,4 +1,5 @@
 # Discord bot client
+`npm i discord.js@13`
 
 ```js
 const { Client, Intents } = require("discord.js");
