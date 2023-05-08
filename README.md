@@ -1,9 +1,9 @@
 # Basic DiscordJS v13 Bot
 A simple tuto for a great bot!
 
-1. [Adding a __configuration files__](https://github.com/Gamatek/basic-djs13-bot/blob/main/config.md)
-2. [Adding a __database__](https://github.com/Gamatek/basic-djs13-bot/blob/main/db.md)
-3. [Setup your __bot__](https://github.com/Gamatek/basic-djs13-bot/blob/main/bot.md)
+1. [Adding a configuration files](https://github.com/Gamatek/basic-djs13-bot/blob/main/config.md)
+2. [Adding a database](https://github.com/Gamatek/basic-djs13-bot/blob/main/db.md)
+3. [Setup your bot](https://github.com/Gamatek/basic-djs13-bot/blob/main/bot.md)
 
 
 
