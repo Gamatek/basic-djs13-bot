@@ -1,8 +1,10 @@
 # Database
+Package required: `quick.db@9`
+
 Currently, I use [quick.db v9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
 
 ## Local SQLite3 File
-Package required: `quick.db@9`
+If you want a mysql server, please install this packages: `npm i better-sqlite3 quick.db@9`
 ```js
 const { QuickDB } = require("quick.db");
 
@@ -14,7 +16,7 @@ let db = {};
 ```
 
 ## MySQL Server Connection
-If you want a mysql server, please ALSO install this packages: `npm i mysql2`
+If you want a mysql server, please ALSO install this packages: `npm i mysql2 quick.db@9`
 ```js
 const { QuickDB, MySQLDriver } = require("quick.db");
 
