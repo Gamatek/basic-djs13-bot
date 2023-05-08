@@ -14,7 +14,7 @@ let db = {};
 ```
 
 ## MySQL Server Connection
-If you want a mysql server, please ALSO install this package en plus: `npm i mysql2`
+If you want a mysql server, please ALSO install this packages: `npm i mysql2`
 ```js
 const { QuickDB, MySQLDriver } = require("quick.db");
 
