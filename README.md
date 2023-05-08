@@ -1,46 +1,9 @@
 # Basic DiscordJS v13 Bot
 A simple tuto for a great bot!
 
-1. config.md
+1. [Adding a configuration files](https://github.com/Gamatek/basic-djs13-bot/blob/main/config.md)
+2. [DataBase]([db.](https://github.com/Gamatek/basic-djs13-bot/blob/main/db.md))
 
-
-### Tree
-```
-my-bot/
-├─ config/
-│  ├─ bot.json
-│  ├─ db.json
-│  ├─ index.js
-```
-
-### bot.json
-```js
-{
-    "token": "" // The token of your bot
-}
-```
-
-### db.json
-```js
-{
-    "host": "", // IP or HOST of the mysql server
-    "port": 3306,
-    "user": "", // Username
-    "password": "", // Password
-    "database": "" // The name of the database
-}
-```
-
-#### index.js
-```js
-module.exports = {
-    bot: require("./bot.json"),
-    db: require("./db.json"),
-    inviteSupport: "", // The invitation link of your Discord server
-    ownerId: "",
-    ownersId: []
-};
-```
 
 ## Database
 Currently, I use [quick.db v9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
