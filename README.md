@@ -1,4 +1,7 @@
 # Basic DiscordJS v13 Bot
+
+<img src="./assets/discord.svg">
+
 A simple tuto for a great bot!
 
 1. [Adding a configuration files](https://github.com/Gamatek/basic-djs13-bot/blob/main/config.md)
