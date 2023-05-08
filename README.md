@@ -1,7 +1,8 @@
 # Basic DiscordJS v13 Bot
 A simple tuto for a great bot!
 
-## Configuration files
+1. config.md
+
 
 ### Tree
 ```
