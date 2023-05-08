@@ -10,6 +10,7 @@ my-bot/
 │  index.js
 ```
 
+## config folder
 ``` js
 // config/index.js
 module.exports = {
@@ -33,4 +34,10 @@ module.exports = {
     "password": "", // Password
     "database": "" // The name of the database
 }
+```
+
+## Load configuration
+```js
+const config = require("./config.json");
+...
 ```
