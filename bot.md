@@ -18,9 +18,9 @@ client.on("ready", () => {
 ```
 
 ### List of intents
-```
+```md
 GUILDS
-GUILD_MEMBERS *
+* GUILD_MEMBERS
 GUILD_BANS
 GUILD_EMOJIS_AND_STICKERS
 GUILD_INTEGRATIONS
