@@ -16,7 +16,7 @@ client.on("ready", () => {
     console.log(`Logged in as ${client.user.ta}`);
 });
 
-client.login(config.token);
+client.login("TOKEN_BOT");
 ```
 
 ### List of intents
