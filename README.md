@@ -1,7 +1,11 @@
 # Basic DiscordJS v13 Bot
 
+A simple tuto for a great bot!
+
 ## Database
-Currently, I use [quick.db@9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
+
+Currently, I use [quick.db v9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
+
 ```js
 // Local SQLite3 File
 const { QuickDB } = require("quick.db");
