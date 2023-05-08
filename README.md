@@ -1,6 +1,6 @@
 # Basic DiscordJS v13 Bot
 
-### Database
+## Database
 Currently, I use [quick.db@9](https://github.com/plexidev/quick.db/tree/9.1.6), this module supports both local SQLite3 file and MySQL server connection.
 ```js
 // Local SQLite3 File
@@ -36,4 +36,4 @@ mysql.connect().then(async () => {
 });
 ```
 
-### Handler Events
+## Handler Events
