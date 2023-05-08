@@ -1,4 +1,4 @@
-# Configuration files exemple
+# Adding a configuration files
 For the configuration of your bot, you can store in a single folder.
 
 ```
