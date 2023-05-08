@@ -13,7 +13,7 @@ const client = new Client({
 });
 ```
 
-### Intents list
+### List of intents
 ```
 GUILDS
 GUILD_MEMBERS
