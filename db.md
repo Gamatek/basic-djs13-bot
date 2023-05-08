@@ -5,6 +5,7 @@ Currently, I use [quick.db v9](https://github.com/plexidev/quick.db/tree/9.1.6),
 
 ## Local SQLite3 File
 If you want a mysql server, please install this packages: `npm i better-sqlite3 quick.db@9`
+And [node-gyp](https://github.com/nodejs/node-gyp)
 ```js
 const { QuickDB } = require("quick.db");
 
