@@ -20,7 +20,7 @@ my-bot/
 ```
 
 ### db.json
-```json
+```js
 {
     "host": "", // IP or HOST of the mysql server
     "port": 3306,
