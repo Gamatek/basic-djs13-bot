@@ -15,6 +15,8 @@ const client = new Client({
 client.on("ready", () => {
     console.log(`Logged in as ${client.user.ta}`);
 });
+
+client.login(config.token);
 ```
 
 ### List of intents
