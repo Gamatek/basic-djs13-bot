@@ -10,7 +10,7 @@ my-bot/
 │  index.js
 ```
 
-## Configuration files
+## Files
 ``` js
 // config/index.js
 module.exports = {
